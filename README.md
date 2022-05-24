@@ -1,5 +1,5 @@
 # Путешествия по России
-* [Ссылка на проект в Russian-travel] ()
+* [Ссылка на проект в Russian-travel] (https://ramilgataullin.github.io/russian-travel/)
 
 ### Используемые технологии
 * flex-box
