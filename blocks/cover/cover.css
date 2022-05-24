@@ -1,0 +1,24 @@
+.cover {
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  max-width: calc(100% - 48px*2);
+  margin: auto;
+  align-items: stretch;
+}
+
+.cover::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding-top: 62.6%;
+}
+
+@media all and (max-width: 1279px){ 
+  .cover {
+    max-width: 100%;
+  }
+}
